@@ -1,7 +1,6 @@
 import click
 
-import consumer
-import producer
+from commands import consumer, producer
 
 
 @click.group()
