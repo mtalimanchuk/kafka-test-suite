@@ -1,7 +1,5 @@
 from kafka import KafkaConsumer
 
-from config import TOPIC, BOOTSTRAP_SERVERS, GROUP_ID, SECURITY_PROTOCOL
-
 
 def consume(broker, topic):
     consumer = KafkaConsumer(
